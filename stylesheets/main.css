@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+
+    /* color: #e8eaed; */
+    /* background-color: #66FCF1; */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_{
+    background-color: #C5C6C7;
+    background-color: #66FCF1;
+
+    color: #1F2883;
+}
