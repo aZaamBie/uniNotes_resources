@@ -35,3 +35,46 @@ body{
 
     transition: transform 0.5s ease;
 }
+
+.gato{
+    z-index: 2;
+
+    animation: slideDown 0.6s ease-in-out;
+}
+
+@keyframes slideDown{
+    from{ transform: translateY(-500px);}
+    to{ transform: translateY(0px);}
+}
+/* .speech-bubble {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .speech-bubble::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .speech-bubble::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    border-color: #ddd transparent transparent transparent;
+  } */
